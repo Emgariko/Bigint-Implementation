@@ -25,4 +25,4 @@ Storage implements [Small Object](https://github.com/CppCon/CppCon2016/blob/mast
 Storage properties:
 
 - If the number stored by `big_integer` is from the range `[-2^95; 2^95 - 1]` then the storage doesn't allocate heap memory. Storage allocate no more than one block of heap memory per instance of `big_integer` otherwise.
--  Copy constructor and assignment operator has `O(1)` complexity and satisfy no-throw exceptions guarantee.
+-  Copy constructor and assignment operator has `O(1)` complexity and satisfies no-throw exceptions guarantee.
